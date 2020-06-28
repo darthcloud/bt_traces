@@ -1,0 +1,167 @@
+# bt_hci_cmd_reset
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_local_features
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_local_version_info
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_bd_addr
+# BT_HCI_EVT_CMD_COMPLETE
+# local_bdaddr: 84:4B:F5:A7:41:EC
+# bt_hci_cmd_read_buffer_size
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_class_of_device
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_local_name
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_voice_setting
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_num_supported_iac
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_current_iac_lap
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_set_event_filter
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_conn_accept_timeout
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_supported_commands
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_ssp_mode
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_inquiry_mode
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_inquiry_rsp_tx_pwr_lvl
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_local_ext_features
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_stored_link_key
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_page_scan_activity
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_page_scan_type
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_le_host_supp
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_delete_stored_link_key
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_class_of_device
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_local_name
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_set_event_filter
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_set_event_filter
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_auth_enable
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_set_event_mask
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_page_scan_activity
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_inquiry_scan_activity
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_page_scan_type
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_page_scan_timeout
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_hold_mode_act
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_scan_enable
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_default_link_policy
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_read_buffer_size
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_set_adv_param
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_set_adv_data
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_set_scan_rsp_data
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_set_adv_enable
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_periodic_inquiry
+# BT_HCI_EVT_CMD_COMPLETE
+# BT_HCI_EVT_INQUIRY_COMPLETE
+# BT_HCI_EVT_CONN_REQUEST
+# bt_hci_cmd_accept_conn_req
+# Page dev: 0 type: 0 bdaddr: 98:7A:14:0C:38:B3
+# BT_HCI_EVT_CMD_STATUS
+# BT_HCI_EVT_ROLE_CHANGE
+# BT_HCI_EVT_CONN_COMPLETE
+# dev: 0 acl_handle: 0x0080
+# bt_hci_cmd_le_set_adv_disable
+# bt_hci_cmd_remote_name_request
+# bt_hci_cmd_read_remote_features
+# BT_HCI_EVT_CMD_COMPLETE
+# BT_HCI_EVT_CMD_STATUS
+# BT_HCI_EVT_CMD_STATUS
+# BT_HCI_EVT_REMOTE_FEATURES
+# bt_hci_cmd_read_remote_ext_features
+# bt_l2cap_cmd_ext_feat_mask_req
+# BT_HCI_EVT_REMOTE_NAME_REQ_COMPLETE:
+# dev: 0 type: 0 Xbox Adaptive Controller
+# BT_HCI_EVT_LINK_KEY_REQ
+# bt_hci_cmd_link_key_reply
+# BT_HCI_EVT_CMD_COMPLETE
+# BT_HCI_EVT_CMD_STATUS
+# BT_HCI_EVT_REMOTE_EXT_FEATURES
+# BT_HCI_EVT_ENCRYPT_CHANGE
+# BT_L2CAP_INFO_RSP
+# bt_l2cap_cmd_sdp_conn_req
+# BT_L2CAP_CONN_REQ
+# BT_L2CAP_CONN_RSP
+# BT_L2CAP_CONF_REQ
+# BT_L2CAP_CONF_REQ
+# BT_L2CAP_CONF_RSP
+# BT_L2CAP_CONF_RSP
+# BT_L2CAP_CONN_REQ
+# BT_L2CAP_CONF_REQ
+# BT_L2CAP_CONF_RSP
+# bt_host_acl_hdlr Detected fragmented frame start
+# bt_host_acl_hdlr process reassembled frame. offset: 137 size 137
+# bt_host_acl_hdlr Detected fragmented frame start
+# bt_host_acl_hdlr process reassembled frame. offset: 137 size 137
+# bt_host_acl_hdlr Detected fragmented frame start
+# bt_host_acl_hdlr process reassembled frame. offset: 137 size 137
+# bt_host_acl_hdlr Detected fragmented frame start
+# bt_host_acl_hdlr process reassembled frame. offset: 137 size 137
+# bt_host_acl_hdlr Detected fragmented frame start
+# bt_host_acl_hdlr process reassembled frame. offset: 137 size 137
+# bt_host_acl_hdlr Detected fragmented frame start
+# bt_host_acl_hdlr process reassembled frame. offset: 137 size 137
+# bt_host_acl_hdlr Detected fragmented frame start
+# bt_host_acl_hdlr process reassembled frame. offset: 137 size 137
+# bt_host_acl_hdlr Detected fragmented frame start
+# bt_host_acl_hdlr process reassembled frame. offset: 137 size 137
+# bt_host_acl_hdlr Detected fragmented frame start
+# bt_host_acl_hdlr process reassembled frame. offset: 137 size 137
+# bt_host_acl_hdlr Detected fragmented frame start
+# bt_host_acl_hdlr process reassembled frame. offset: 137 size 137
+# bt_host_acl_hdlr Detected fragmented frame start
+# bt_host_acl_hdlr process reassembled frame. offset: 137 size 137
+# bt_host_acl_hdlr Detected fragmented frame start
+# bt_host_acl_hdlr process reassembled frame. offset: 93 size 93
+# bt_l2cap_cmd_sdp_disconn_req
+# bt_sdp_parser HID descriptor size: 1224 Usage page: 0501
+# 1 0130 0 16, 0131 16 16, 0132 32 16, 0135 48 16, 02C5 64 10, 02C4 80 10, 0139 96 4, 0901 104 15 0C224 120 1 0140 128 16, 0141 144 16, 0143 160 16, 0144 176 16, 0142 192 10, 0145 208 10, 0137 224 4, 0910 232 15 0C82 248 1 0C81 256 4, 0C84 264 4, 0C85 272 8, 0C99 280 4, 0C9E 288 8, 0CA1 296 8, 0CA2 304 8, 0CA3 312 8, 0CA4 320 8, 0CB9 328 8, 0CBA 336 8, 0CBB 344 8, 0CBE 352 8, 0CC0 360 8, 0CC1 368 8, 0CC2 376 8, 0CC3 384 8, 0CC4 392 8, 0CC5 400 8, 0CC6 408 8, 0CC7 416 8, 0CC8 424 8, rtype: 2 dtype: 0
+# 2 0C223 0 1 rtype: 3 dtype: -1
+# 3
+# 4 0620 0 8,
+# 6
+# 7
+# 8
+# 9
+# 10
+# 11
+# 5 07E0 0 8 0700 16 8, 0700 24 8, 0700 32 8, 0700 40 8, 0700 48 8, 0700 56 8, rtype: 0 dtype: 0
+# BT_L2CAP_DISCONN_RSP
+0130: 8000, 0131: 7FFF, 0132: 8000, 0135: 7FFF, 02C5: 000, 02C4: 000, 0139: 0, 0901: 0001, 0C224: 0, 0140: 8000, 0141: 7FFF, 0143: 8000, 0144: 7FFF, 0142: 000, 0145: 000, 0137: 0, 0910: 0001, 0C82: 0, 0C81: 0, 0C84: 0, 0C85: 02, 0C99: 0, 0C9E: 00, 0CA1: 00, 0CA2: 00, 0CA3: 00, 0CA4: 00, 0CB9: 00, 0CBA: 00, 0CBB: 00, 0CBE: 00, 0CC0: 00, 0CC1: 00, 0CC2: 00, 0CC3: 00, 0CC4: 00, 0CC5: 00, 0CC6: 00, 0CC7: 00, 0CC8: 00,
+0130: 8000, 0131: 7FFF, 0132: 8000, 0135: 7FFF, 02C5: 000, 02C4: 000, 0139: 0, 0901: 0000, 0C224: 0, 0140: 8000, 0141: 7FFF, 0143: 8000, 0144: 7FFF, 0142: 000, 0145: 000, 0137: 0, 0910: 0000, 0C82: 0, 0C81: 0, 0C84: 0, 0C85: 02, 0C99: 0, 0C9E: 00, 0CA1: 00, 0CA2: 00, 0CA3: 00, 0CA4: 00, 0CB9: 00, 0CBA: 00, 0CBB: 00, 0CBE: 00, 0CC0: 00, 0CC1: 00, 0CC2: 00, 0CC3: 00, 0CC4: 00, 0CC5: 00, 0CC6: 00, 0CC7: 00, 0CC8: 00,
+0130: 8000, 0131: 7FFF, 0132: 8000, 0135: 7FFF, 02C5: 000, 02C4: 000, 0139: 0, 0901: 0001, 0C224: 0, 0140: 8000, 0141: 7FFF, 0143: 8000, 0144: 7FFF, 0142: 000, 0145: 000, 0137: 0, 0910: 0001, 0C82: 0, 0C81: 0, 0C84: 0, 0C85: 02, 0C99: 0, 0C9E: 00, 0CA1: 00, 0CA2: 00, 0CA3: 00, 0CA4: 00, 0CB9: 00, 0CBA: 00, 0CBB: 00, 0CBE: 00, 0CC0: 00, 0CC1: 00, 0CC2: 00, 0CC3: 00, 0CC4: 00, 0CC5: 00, 0CC6: 00, 0CC7: 00, 0CC8: 00,
+0130: 8000, 0131: 7FFF, 0132: 8000, 0135: 7FFF, 02C5: 000, 02C4: 000, 0139: 0, 0901: 0000, 0C224: 0, 0140: 8000, 0141: 7FFF, 0143: 8000, 0144: 7FFF, 0142: 000, 0145: 000, 0137: 0, 0910: 0000, 0C82: 0, 0C81: 0, 0C84: 0, 0C85: 02, 0C99: 0, 0C9E: 00, 0CA1: 00, 0CA2: 00, 0CA3: 00, 0CA4: 00, 0CB9: 00, 0CBA: 00, 0CBB: 00, 0CBE: 00, 0CC0: 00, 0CC1: 00, 0CC2: 00, 0CC3: 00, 0CC4: 00, 0CC5: 00, 0CC6: 00, 0CC7: 00, 0CC8: 00,
+0130: 8000, 0131: 7FFF, 0132: 8000, 0135: 7FFF, 02C5: 000, 02C4: 000, 0139: 0, 0901: 0001, 0C224: 0, 0140: 8000, 0141: 7FFF, 0143: 8000, 0144: 7FFF, 0142: 000, 0145: 000, 0137: 0, 0910: 0001, 0C82: 0, 0C81: 0, 0C84: 0, 0C85: 02, 0C99: 0, 0C9E: 00, 0CA1: 00, 0CA2: 00, 0CA3: 00, 0CA4: 00, 0CB9: 00, 0CBA: 00, 0CBB: 00, 0CBE: 00, 0CC0: 00, 0CC1: 00, 0CC2: 00, 0CC3: 00, 0CC4: 00, 0CC5: 00, 0CC6: 00, 0CC7: 00, 0CC8: 00,
+0130: 8000, 0131: 7FFF, 0132: 8000, 0135: 7FFF, 02C5: 000, 02C4: 000, 0139: 0, 0901: 0000, 0C224: 0, 0140: 8000, 0141: 7FFF, 0143: 8000, 0144: 7FFF, 0142: 000, 0145: 000, 0137: 0, 0910: 0000, 0C82: 0, 0C81: 0, 0C84: 0, 0C85: 02, 0C99: 0, 0C9E: 00, 0CA1: 00, 0CA2: 00, 0CA3: 00, 0CA4: 00, 0CB9: 00, 0CBA: 00, 0CBB: 00, 0CBE: 00, 0CC0: 00, 0CC1: 00, 0CC2: 00, 0CC3: 00, 0CC4: 00, 0CC5: 00, 0CC6: 00, 0CC7: 00, 0CC8: 00,
+0130: 8000, 0131: 7FFF, 0132: 8000, 0135: 7FFF, 02C5: 000, 02C4: 000, 0139: 0, 0901: 0001, 0C224: 0, 0140: 8000, 0141: 7FFF, 0143: 8000, 0144: 7FFF, 0142: 000, 0145: 000, 0137: 0, 0910: 0001, 0C82: 0, 0C81: 0, 0C84: 0, 0C85: 02, 0C99: 0, 0C9E: 00, 0CA1: 00, 0CA2: 00, 0CA3: 00, 0CA4: 00, 0CB9: 00, 0CBA: 00, 0CBB: 00, 0CBE: 00, 0CC0: 00, 0CC1: 00, 0CC2: 00, 0CC3: 00, 0CC4: 00, 0CC5: 00, 0CC6: 00, 0CC7: 00, 0CC8: 00,
+0130: 8000, 0131: 7FFF, 0132: 8000, 0135: 7FFF, 02C5: 000, 02C4: 000, 0139: 0, 0901: 0001, 0C224: 0, 0140: 8000, 0141: 7FFF, 0143: 8000, 0144: 7FFF, 0142: 000, 0145: 000, 0137: 0, 0910: 0001, 0C82: 0, 0C81: 0, 0C84: 0, 0C85: 02, 0C99: 0, 0C9E: 00, 0CA1: 00, 0CA2: 00, 0CA3: 00, 0CA4: 00, 0CB9: 00, 0CBA: 00, 0CBB: 00, 0CBE: 00, 0CC0: 00, 0CC1: 00, 0CC2: 00, 0CC3: 00, 0CC4: 00, 0CC5: 00, 0CC6: 00, 0CC7: 00, 0CC8: 00,
+0130: 8000, 0131: 7FFF, 0132: 8000, 0135: 7FFF, 02C5: 000, 02C4: 000, 0139: 0, 0901: 0001, 0C224: 0, 0140: 8000, 0141: 7FFF, 0143: 8000, 0144: 7FFF, 0142: 000, 0145: 000, 0137: 0, 0910: 0001, 0C82: 0, 0C81: 0, 0C84: 0, 0C85: 02, 0C99: 0, 0C9E: 00, 0CA1: 00, 0CA2: 00, 0CA3: 00, 0CA4: 00, 0CB9: 00, 0CBA: 00, 0CBB: 00, 0CBE: 00, 0CC0: 00, 0CC1: 00, 0CC2: 00, 0CC3: 00, 0CC4: 00, 0CC5: 00, 0CC6: 00, 0CC7: 00, 0CC8: 00,
+0130: 8000, 0131: 7FFF, 0132: 8000, 0135: 7FFF, 02C5: 000, 02C4: 000, 0139: 0, 0901: 0000, 0C224: 0, 0140: 8000, 0141: 7FFF, 0143: 8000, 0144: 7FFF, 0142: 000, 0145: 000, 0137: 0, 0910: 0000, 0C82: 0, 0C81: 0, 0C84: 0, 0C85: 02, 0C99: 0, 0C9E: 00, 0CA1: 00, 0CA2: 00, 0CA3: 00, 0CA4: 00, 0CB9: 00, 0CBA: 00, 0CBB: 00, 0CBE: 00, 0CC0: 00, 0CC1: 00, 0CC2: 00, 0CC3: 00, 0CC4: 00, 0CC5: 00, 0CC6: 00, 0CC7: 00, 0CC8: 00,
