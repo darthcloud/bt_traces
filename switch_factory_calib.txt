@@ -1,0 +1,73 @@
+left
+# rel_min LX 467 RX 000
+# neutral LX 786 RX 000
+# rel_max LX 4DC RX 000
+# rel_min LY 465 RY 000
+# neutral LY 85D RY 000
+# rel_max LY 44A RY 000
+#         LD 0BC RD 0BC
+
+left user:
+# rel_min LX 44F RX 000
+# neutral LX 7DC RX 000
+# rel_max LX 4B1 RX 000
+# rel_min LY 452 RY 000
+# neutral LY 8B9 RY 000
+# rel_max LY 442 RY 000
+#         LD 0BC RD 0BC
+
+
+ritgh:
+# rel_min LX 51C RX 000
+# neutral LX 89C RX 000
+# rel_max LX 4C2 RX 000
+# rel_min LY 432 RY 000
+# neutral LY 749 RY 000
+# rel_max LY 487 RY 000
+#         LD 0BC RD 0BC
+
+8bitdo:
+# rel_min LX 610 RX 650
+# neutral LX 7DF RX 7F0
+# rel_max LX 57F RX 561
+# rel_min LY 5F6 RY 5E0
+# neutral LY 7A9 RY 800
+# rel_max LY 5FB RY 5E7
+#         LD 096 RD 096
+
+
+powera:
+# rel_min LX 000 RX 000
+# neutral LX 000 RX 000
+# rel_max LX 000 RX 000
+# rel_min LY 000 RY 000
+# neutral LY 000 RY 000
+# rel_max LY 000 RY 000
+#         LD FFF RD FFF
+
+pro:
+# rel_min LX 5F8 RX 5F0
+# neutral LX 7E1 RX 7B1
+# rel_max LX 5F5 RX 5BC
+# rel_min LY 64D RY 5F7
+# neutral LY 7F4 RY 796
+# rel_max LY 646 RY 627
+#         LD 0AE RD 0AE
+
+# BT_L2CAP_CONN_REQ
+# BT_L2CAP_CONF_REQ
+# BT_L2CAP_CONF_RSP
+# BT_L2CAP_CONN_REQ
+# BT_L2CAP_CONF_REQ
+# BT_L2CAP_CONF_RSP
+
+# BT_L2CAP_CONN_RSP
+# BT_L2CAP_CONF_REQ
+# BT_L2CAP_CONF_RSP
+# bt_l2cap_cmd_hid_intr_conn_req
+# BT_L2CAP_CONN_RSP
+# BT_L2CAP_CONF_REQ
+# BT_L2CAP_CONF_RSP
+
+
+

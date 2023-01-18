@@ -1,0 +1,135 @@
+xbox adaptive:
+Samples: 13418
+Average: 8.8526 ms
+Max:     200.080 ms
+Min:     3.704 ms
+Std Dev: 5.363 ms
+
+ps4:
+Samples: 11974
+Average: 5.3688 ms
+Max:     49.844 ms
+Min:     1.620 ms
+Std Dev: 4.550 ms
+
+update
+Samples: 11381
+Average: 6.4029 ms
+Max:     31.704 ms
+Min:     1.644 ms
+Std Dev: 5.003 ms
+
+auto latency
+Samples: 9485
+Average: 5.4746 ms
+Max:     47.168 ms
+Min:     1.632 ms
+Std Dev: 4.689 ms
+
+edr only:
+Samples: 18321
+Average: 5.3760 ms
+Max:     28.356 ms
+Min:     1.624 ms
+Std Dev: 4.520 ms
+
+raw:
+Samples: 10709
+Average: 1.996067 ms
+Max:     72.989998 ms
+Min:     0.505000 ms
+Std Dev: 2.885447 ms
+
+direct:
+Samples: 26411
+Average: 5.2899 ms
+Max:     48.776 ms
+Min:     1.552 ms
+Std Dev: 4.546 ms
+
+ps3:
+Samples: 10887
+Average: 20.8529 ms
+Max:     184.456 ms
+Min:     2.712 ms
+Std Dev: 11.477 ms
+
+raw:
+Samples: 10109
+Average: 22.218557 ms
+Max:     69.829002 ms
+Min:     0.675000 ms
+Std Dev: 12.550290 ms
+
+switch pro:
+Samples: 10846
+Average: 12.4444 ms
+Max:     147.872 ms
+Min:     3.564 ms
+Std Dev: 6.281 ms
+
+raw:
+Samples: 10388
+Average: 14.998074 ms
+Max:     133.751007 ms
+Min:     0.045000 ms
+Std Dev: 3.644071 ms
+
+xbox one s:
+Samples: 10922
+Average: 8.7912 ms
+Max:     174.420 ms
+Min:     0.188 ms
+Std Dev: 4.535 ms
+
+raw:
+Samples: 10164
+Average: 10.051818 ms
+Max:     52.504002 ms
+Min:     0.579000 ms
+Std Dev: 4.252044 ms
+
+nes30 (xinput):
+Samples: 10602
+Average: 16.1826 ms
+Max:     90.916 ms
+Min:     3.772 ms
+Std Dev: 7.244 ms
+
+wiiu pro:
+Samples: 10285
+Average: 39.1817 ms
+Max:     193.336 ms
+Min:     4.940 ms
+Std Dev: 16.259 ms
+
+Samples: 10212
+Average: 15.408333 ms
+Max:     263.748993 ms
+Min:     1.238000 ms
+Std Dev: 12.949261 ms
+
+ps5:
+raw:
+Samples: 10951
+Average: 1.918630 ms
+Max:     70.488998 ms
+Min:     0.050000 ms
+Std Dev: 2.711311 ms
+
+wiimote:
+raw:
+Samples: 16275
+Average: 12.061165 ms
+Max:     40.000000 ms
+Min:     1.242000 ms
+Std Dev: 5.773889 ms
+
+
+
+
+
+
+
+
+

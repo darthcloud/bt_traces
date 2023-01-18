@@ -1,0 +1,16 @@
+The "8bitDo Saturn DIY" controller has 4 different controllers modes. I have captured
+each one in their respective modes.  Below is the order of buttons pressed:
+
+UP
+DOWN
+LEFT
+RIGHT
+A
+B
+C
+X
+Y
+Z
+Start
+L
+R

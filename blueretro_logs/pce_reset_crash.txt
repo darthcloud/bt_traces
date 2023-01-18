@@ -1,0 +1,34 @@
+# bt_hid_ps5_init_callback
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒W (184) boot.esp32: PRO CPU has been reset by WDT.
+W (184) boot.esp32: WDT reset info: PRO CPU PC=0x40082f1a
+0x40082f1a: .check_dport_access_end at /home/jacques/BlueRetroRoot/BlueRetro/main/system/core0_stall_highint_hdl.S:91
+
+W (184) boot.esp32: WDT reset info: APP CPU PC=0x837c1de2
+I (403) cpu_start: Pro cpu up.
+I (403) cpu_start: Single core mode
+I (410) cpu_start: Pro cpu start user code
+I (411) cpu_start: cpu freq: 240000000
+I (411) cpu_start: Application information:
+I (411) cpu_start: Project name:     BlueRetro
+I (412) cpu_start: App version:      v0.15-19-g354f4b4
+I (412) cpu_start: Compile time:     Apr 27 2021 08:38:46
+I (413) cpu_start: ELF file SHA256:  9d48ab19967b9c53...
+I (414) cpu_start: ESP-IDF:          v4.3-dev-2398-g2bfdd036b
+I (415) cpu_start: App cpu up.
+I (415) heap_init: Initializing. RAM available for dynamic allocation:
+I (416) heap_init: At 3FF80000 len 00002000 (8 KiB): RTCRAM
+I (417) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM
+I (417) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM
+I (418) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM
+I (419) heap_init: At 3FFD6DB8 len 00009248 (36 KiB): DRAM
+I (420) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+I (421) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+I (421) heap_init: At 40078000 len 00008000 (32 KiB): IRAM
+I (422) heap_init: At 4009D56C len 00002A94 (10 KiB): IRAM
+I (424) spi_flash: detected chip: generic
+I (424) spi_flash: flash io: dio
+I (425) esp_core_dump_uart: Init core dump to UART
+I (425) esp_core_dump_uart: Init core dump to UART
+I (426) cpu_start: Starting scheduler on PRO CPU.
+I (427) gpio: GPIO[17]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0
+I (427) gpio: GPIO[13]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0
