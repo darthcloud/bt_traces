@@ -1,0 +1,106 @@
+# GPIO[27]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0
+# sw_pad_init: no calib, using default
+# sw_pad_init: no calib, using default
+# sw_pad_init: no calib, using default
+# sw_pad_init: no calib, using default
+v: 549 n: 2048 s: 1499 sn: -1499
+v: 548 n: 2048 s: 1500 sn: -1500
+v: 550 n: 2048 s: 1498 sn: -1498
+v: 550 n: 2048 s: 1498 sn: -1498
+v: 549 n: 2048 s: 1499 sn: -1499
+v: 549 n: 2048 s: 1499 sn: -1499
+v: 549 n: 2048 s: 1499 sn: -1499
+v: 550 n: 2048 s: 1498 sn: -1498
+v: 550 n: 2048 s: 1498 sn: -1498
+v: 550 n: 2048 s: 1498 sn: -1498
+v: 550 n: 2048 s: 1498 sn: -1498
+v: 549 n: 2048 s: 1499 sn: -1499
+v: 549 n: 2048 s: 1499 sn: -1499
+v: 550 n: 2048 s: 1498 sn: -1498
+v: 549 n: 2048 s: 1499 sn: -1499
+v: 550 n: 2048 s: 1498 sn: -1498
+# bt_hid_sw_init_callback
+v: 549 n: 2048 s: 1499 sn: -1499
+v: 549 n: 2048 s: 1499 sn: -1499
+v: 549 n: 2048 s: 1499 sn: -1499
+# BT_HIDP_SW_SUBCMD_READ_INFO
+v: 549 n: 2048 s: 1499 sn: -1499
+v: 549 n: 2048 s: 1499 sn: -1499
+v: 550 n: 2048 s: 1498 sn: -1498
+# BT_HIDP_SW_SUBCMD_READ_SPI 0x603D
+# 000000 67 25 58 C9 27 85 45 D5 58 FF FF FF FF FF FF FF
+# 000010 FF FF
+v: 549 n: 2048 s: 1499 sn: -1499
+v: 551 n: 2048 s: 1497 sn: -1497
+v: 549 n: 2048 s: 1499 sn: -1499
+# BT_HIDP_SW_SUBCMD_READ_SPI 0x6086
+# 000000 0F 70 5D 50 30 F3 38 84 43 38 84 43 33 39 93 CD
+# 000010 D6 6C
+v: 549 n: 2048 s: 1499 sn: -1499
+v: 549 n: 2048 s: 1499 sn: -1499
+v: 549 n: 2048 s: 1499 sn: -1499
+# BT_HIDP_SW_SUBCMD_READ_SPI 0x6098
+# 000000 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+# 000010 FF FF
+v: 549 n: 2048 s: 1499 sn: -1499
+v: 549 n: 2048 s: 1499 sn: -1499
+v: 548 n: 2048 s: 1500 sn: -1500
+# BT_HIDP_SW_SUBCMD_READ_SPI 0x8010
+# 000000 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+# 000010 FF FF FF FF FF FF
+# rel_min LX 545 RX 000
+# neutral LX 7C9 RX 000
+# rel_max LX 567 RX 000
+# rel_min LY 58D RY 000
+# neutral LY 852 RY 000
+# rel_max LY 582 RY 000
+#         LD 050 RD FFF
+# bt_type_update: dev: 0 type: 5 subtype: 15
+# sw_pad_init: controller calib loaded
+# sw_pad_init: controller calib loaded
+# sw_pad_init: no calib, using default
+# sw_pad_init: no calib, using default
+v: 550 n: 2130 s: 1580 sn: -1580
+# BT_HIDP_SW_SUBCMD_EN_RUMBLE
+v: 548 n: 2130 s: 1582 sn: -1582
+v: 549 n: 2130 s: 1581 sn: -1581
+v: 549 n: 2130 s: 1581 sn: -1581
+# BT_HIDP_SW_SUBCMD_SET_LED
+v: 550 n: 2130 s: 1580 sn: -1580
+v: 549 n: 2130 s: 1581 sn: -1581
+v: 550 n: 2130 s: 1580 sn: -1580
+# BT_HIDP_SW_SUBCMD_SET_REP_MODE
+# bt_type_update: dev: 0 type: 5 subtype: 15
+# bt_hid_sw_hdlr: Report type change to 30
+# sw_pad_init: controller calib loaded
+# sw_pad_init: controller calib loaded
+# sw_pad_init: no calib, using default
+# sw_pad_init: no calib, using default
+v: 3545 n: 2130 s: 1415 sn: -1415
+v: 3546 n: 2130 s: 1416 sn: -1416
+v: 3545 n: 2130 s: 1415 sn: -1415
+v: 3545 n: 2130 s: 1415 sn: -1415
+v: 3546 n: 2130 s: 1416 sn: -1416
+v: 3545 n: 2130 s: 1415 sn: -1415
+v: 3546 n: 2130 s: 1416 sn: -1416
+v: 3545 n: 2130 s: 1415 sn: -1415
+v: 3545 n: 2130 s: 1415 sn: -1415
+v: 3547 n: 2130 s: 1417 sn: -1417
+v: 3546 n: 2130 s: 1416 sn: -1416
+v: 3546 n: 2130 s: 1416 sn: -1416
+v: 3546 n: 2130 s: 1416 sn: -1416
+v: 3546 n: 2130 s: 1416 sn: -1416
+v: 3545 n: 2130 s: 1415 sn: -1415
+v: 3544 n: 2130 s: 1414 sn: -1414
+v: 3545 n: 2130 s: 1415 sn: -1415
+v: 3546 n: 2130 s: 1416 sn: -1416
+v: 3546 n: 2130 s: 1416 sn: -1416
+v: 3546 n: 2130 s: 1416 sn: -1416
+v: 3546 n: 2130 s: 1416 sn: -1416
+v: 3546 n: 2130 s: 1416 sn: -1416
+v: 3546 n: 2130 s: 1416 sn: -1416
+v: 3546 n: 2130 s: 1416 sn: -1416
+v: 3545 n: 2130 s: 1415 sn: -1415
+v: 3546 n: 2130 s: 1416 sn: -1416
+v: 3546 n: 2130 s: 1416 sn: -1416
+v: 3546 n: 2130 s: 1416 sn: -1416

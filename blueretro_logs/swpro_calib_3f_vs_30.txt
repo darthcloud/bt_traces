@@ -1,0 +1,107 @@
+# sw_pad_init: no calib, using default
+# sw_pad_init: no calib, using default
+# sw_pad_init: no calib, using default
+# sw_pad_init: no calib, using default
+v: 473 n: 2048 s: 1575 sn: -1575
+v: 475 n: 2048 s: 1573 sn: -1573
+v: 472 n: 2048 s: 1576 sn: -1576
+v: 475 n: 2048 s: 1573 sn: -1573
+v: 474 n: 2048 s: 1574 sn: -1574
+v: 474 n: 2048 s: 1574 sn: -1574
+v: 474 n: 2048 s: 1574 sn: -1574
+v: 474 n: 2048 s: 1574 sn: -1574
+# bt_hid_sw_init_callback
+v: 472 n: 2048 s: 1576 sn: -1576
+v: 475 n: 2048 s: 1573 sn: -1573
+# BT_HIDP_SW_SUBCMD_READ_INFO
+v: 475 n: 2048 s: 1573 sn: -1573
+v: 473 n: 2048 s: 1575 sn: -1575
+# BT_HIDP_SW_SUBCMD_READ_SPI 0x603D
+# 000000 F5 65 64 E1 47 7F F8 D5 64 B1 67 79 F0 75 5F BC
+# 000010 75 62
+v: 474 n: 2048 s: 1574 sn: -1574
+v: 474 n: 2048 s: 1574 sn: -1574
+# BT_HIDP_SW_SUBCMD_READ_SPI 0x6086
+# 000000 0F 30 61 AE 90 D9 D4 14 54 41 15 54 C7 79 9C 33
+# 000010 36 63
+v: 476 n: 2048 s: 1572 sn: -1572
+v: 473 n: 2048 s: 1575 sn: -1575
+# BT_HIDP_SW_SUBCMD_READ_SPI 0x6098
+# 000000 0F 30 61 AE 90 D9 D4 14 54 41 15 54 C7 79 9C 33
+# 000010 36 63
+v: 474 n: 2048 s: 1574 sn: -1574
+v: 474 n: 2048 s: 1574 sn: -1574
+v: 473 n: 2048 s: 1575 sn: -1575
+# BT_HIDP_SW_SUBCMD_READ_SPI 0x8010
+# 000000 B2 A1 0E 66 64 E4 C7 7D FC 85 63 B2 A1 B1 D7 78
+# 000010 F1 85 61 02 26 64
+# rel_min LX 5FC RX 5F1
+# neutral LX 7E4 RX 7B1
+# rel_max LX 60E RX 602
+# rel_min LY 638 RY 618
+# neutral LY 7DC RY 78D
+# rel_max LY 646 RY 642
+#         LD 0AE RD 0AE
+# bt_type_update: dev: 0 type: 5 subtype: 0
+# sw_pad_init: controller calib loaded
+# sw_pad_init: controller calib loaded
+# sw_pad_init: controller calib loaded
+# sw_pad_init: controller calib loaded
+v: 474 n: 2012 s: 1538 sn: -1538
+# BT_HIDP_SW_SUBCMD_EN_RUMBLE
+v: 475 n: 2012 s: 1537 sn: -1537
+v: 473 n: 2012 s: 1539 sn: -1539
+v: 473 n: 2012 s: 1539 sn: -1539
+# BT_HIDP_SW_SUBCMD_SET_LED
+v: 475 n: 2012 s: 1537 sn: -1537
+v: 474 n: 2012 s: 1538 sn: -1538
+v: 474 n: 2012 s: 1538 sn: -1538
+# BT_HIDP_SW_SUBCMD_SET_REP_MODE
+# bt_type_update: dev: 0 type: 5 subtype: 0
+# bt_hid_sw_hdlr: Report type change to 30
+# sw_pad_init: controller calib loaded
+# sw_pad_init: controller calib loaded
+# sw_pad_init: controller calib loaded
+# sw_pad_init: controller calib loaded
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3620 n: 2012 s: 1608 sn: -1608
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3620 n: 2012 s: 1608 sn: -1608
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3620 n: 2012 s: 1608 sn: -1608
+v: 3620 n: 2012 s: 1608 sn: -1608
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3620 n: 2012 s: 1608 sn: -1608
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3620 n: 2012 s: 1608 sn: -1608
+v: 3623 n: 2012 s: 1611 sn: -1611
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3620 n: 2012 s: 1608 sn: -1608
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3620 n: 2012 s: 1608 sn: -1608
+v: 3622 n: 2012 s: 1610 sn: -1610
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3622 n: 2012 s: 1610 sn: -1610
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3620 n: 2012 s: 1608 sn: -1608
+v: 3622 n: 2012 s: 1610 sn: -1610
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3619 n: 2012 s: 1607 sn: -1607
+v: 3620 n: 2012 s: 1608 sn: -1608
+v: 3619 n: 2012 s: 1607 sn: -1607
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3620 n: 2012 s: 1608 sn: -1608
+v: 3621 n: 2012 s: 1609 sn: -1609
+v: 3619 n: 2012 s: 1607 sn: -1607
+v: 3620 n: 2012 s: 1608 sn: -1608
+v: 3620 n: 2012 s: 1608 sn: -1608
+v: 3621 n: 2012 s: 1609 sn: -1609

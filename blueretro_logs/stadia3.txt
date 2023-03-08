@@ -1,0 +1,532 @@
+# bt_hci_cmd_reset
+O 000000 01 03 0C 00
+I 000000 04 0E 04 05 03 0C 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_local_features
+O 000000 01 03 10 00
+I 000000 04 0E 0C 05 03 10 00 BF EE CD FE DB FF 7B 87
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_local_version_info
+O 000000 01 01 10 00
+I 000000 04 0E 0C 05 01 10 00 08 0E 03 08 60 00 0E 03
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_bd_addr
+O 000000 01 09 10 00
+I 000000 04 0E 0A 05 09 10 00 2E C3 E0 BD 9E 7C
+# BT_HCI_EVT_CMD_COMPLETE
+# local_name: BlueRetro_N64_C32E
+# local_bdaddr: 7C:9E:BD:E0:C3:2E
+# bt_hci_cmd_read_buffer_size
+O 000000 01 05 10 00
+I 000000 04 0E 0B 05 05 10 00 FD 03 FF 09 00 04 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_class_of_device
+O 000000 01 23 0C 00
+I 000000 04 0E 07 05 23 0C 00 00 00 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_local_name
+O 000000 01 14 0C 00
+I 000000 04 0E FC 05 14 0C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                                                                                                                                                            00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0                                                                                                                                                                                           0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                                                                                                                                                            00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                                                                                                                                                            00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0                                                                                                                                                                                           0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                                                                                                                                                            00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                                                                                                                                                            00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0                                                                                                                                                                                           0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                                                                                                                                                            00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_voice_setting
+O 000000 01 25 0C 00
+I 000000 04 0E 06 05 25 0C 00 00 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_num_supported_iac
+O 000000 01 38 0C 00
+I 000000 04 0E 05 05 38 0C 00 01
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_current_iac_lap
+O 000000 01 39 0C 00
+I 000000 04 0E 08 05 39 0C 00 01 33 8B 9E
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_set_event_filter
+O 000000 01 05 0C 01 00
+I 000000 04 0E 04 05 05 0C 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_conn_accept_timeout
+O 000000 01 16 0C 02 00 7D
+I 000000 04 0E 04 05 16 0C 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_supported_commands
+O 000000 01 02 10 00
+I 000000 04 0E 44 05 02 10 00 BF FF FF 03 CC FF EF FF 3F FF FC 1F F2 0F E8 FE 3F                                                                                                                                                                                            F7 8F FF 1C 00 04 00 61 F7 FF FF 7F 38 C0 FF 7F FF FF 0F 00 00 00 00 00 00 00 0                                                                                                                                                                                           0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_ssp_mode
+O 000000 01 56 0C 01 01
+I 000000 04 0E 04 05 56 0C 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_inquiry_mode
+O 000000 01 45 0C 01 02
+I 000000 04 0E 04 05 45 0C 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_inquiry_rsp_tx_pwr_lvl
+O 000000 01 58 0C 00
+I 000000 04 0E 05 05 58 0C 00 F4
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_local_ext_features
+O 000000 01 04 10 01 01
+I 000000 04 0E 0E 05 04 10 00 01 02 01 00 00 00 00 00 00 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_stored_link_key
+O 000000 01 0D 0C 07 00 00 00 00 00 00 01
+I 000000 04 0E 08 05 0D 0C 00 08 00 00 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_page_scan_activity
+O 000000 01 1B 0C 00
+I 000000 04 0E 08 05 1B 0C 00 00 08 12 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_page_scan_type
+O 000000 01 46 0C 00
+I 000000 04 0E 05 05 46 0C 00 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_le_host_supp
+O 000000 01 6D 0C 02 01 00
+I 000000 04 0E 04 05 6D 0C 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_read_wl_size
+O 000000 01 0F 20 00
+I 000000 04 0E 05 05 0F 20 00 0C
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_clear_wl
+O 000000 01 10 20 00
+I 000000 04 0E 04 05 10 20 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_add_dev_to_wl
+O 000000 01 11 20 07 00 20 A4 52 22 16 44
+I 000000 04 0E 04 05 11 20 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_add_dev_to_wl
+O 000000 01 11 20 07 00 B7 58 96 5F C6 EE
+I 000000 04 0E 04 05 11 20 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_delete_stored_link_key
+O 000000 01 12 0C 07 00 00 00 00 00 00 01
+I 000000 04 0E 06 05 12 0C 00 00 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_class_of_device
+O 000000 01 24 0C 03 0C 01 1C
+I 000000 04 0E 04 05 24 0C 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_local_name
+O 000000 01 13 0C F8 42 6C 75 65 52 65 74 72 6F 20 41 64 61 70 74 65 72 00 00 00                                                                                                                                                                                            00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0                                                                                                                                                                                           0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                                                                                                                                                            00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                                                                                                                                                            00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0                                                                                                                                                                                           0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                                                                                                                                                            00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                                                                                                                                                            00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0                                                                                                                                                                                           0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                                                                                                                                                            00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+I 000000 04 0E 04 05 13 0C 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_set_event_filter
+O 000000 01 05 0C 08 01 01 00 05 00 00 1F 00
+I 000000 04 0E 04 05 05 0C 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_set_event_filter
+O 000000 01 05 0C 09 02 01 00 05 00 00 1F 00 01
+I 000000 04 0E 04 05 05 0C 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_auth_enable
+O 000000 01 20 0C 01 00
+I 000000 04 0E 04 05 20 0C 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_set_event_mask
+O 000000 01 01 0C 08 FF FF FB FF 07 F8 BF 3D
+I 000000 04 0E 04 05 01 0C 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_page_scan_activity
+O 000000 01 1C 0C 04 50 00 12 00
+I 000000 04 0E 04 05 1C 0C 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_inquiry_scan_activity
+O 000000 01 1E 0C 04 50 00 12 00
+I 000000 04 0E 04 05 1E 0C 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_page_scan_type
+O 000000 01 47 0C 01 01
+I 000000 04 0E 04 05 47 0C 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_page_scan_timeout
+O 000000 01 18 0C 02 00 20
+I 000000 04 0E 04 05 18 0C 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_hold_mode_act
+O 000000 01 2C 0C 01 00
+I 000000 04 0E 04 05 2C 0C 01
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_scan_enable
+O 000000 01 1A 0C 01 02
+I 000000 04 0E 04 05 1A 0C 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_default_link_policy
+O 000000 01 0F 08 02 0F 00
+I 000000 04 0E 04 05 0F 08 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_read_buffer_size
+O 000000 01 02 20 00
+I 000000 04 0E 07 05 02 20 00 FB 00 0A
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_att_set_le_max_mtu 247
+# bt_hci_cmd_le_set_adv_param
+O 000000 01 06 20 0F A0 00 A0 00 00 00 00 00 00 00 00 00 00 07 00
+I 000000 04 0E 04 05 06 20 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_set_adv_data
+O 000000 01 08 20 20 1B 02 01 06 03 02 0F 18 13 09 42 6C 75 65 52 65 74 72 6F 5F                                                                                                                                                                                            4E 36 34 5F 43 33 32 45 00 00 00 00
+I 000000 04 0E 04 05 08 20 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_set_scan_rsp_data
+O 000000 01 09 20 20 12 11 07 56 9A 79 76 A1 2F 4B 31 B0 FA 80 51 56 0F 83 00 00                                                                                                                                                                                            00 00 00 00 00 00 00 00 00 00 00 00
+I 000000 04 0E 04 05 09 20 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_set_adv_enable
+O 000000 01 0A 20 01 01
+I 000000 04 0E 04 05 0A 20 00
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_set_scan_enable
+# bt_hci_cmd_le_set_scan_param_active
+# bt_hci_cmd_le_set_scan_enable
+# bt_hci_cmd_periodic_inquiry
+O 000000 01 0C 20 02 00 01
+I 000000 04 0E 04 05 0C 20 0C
+# BT_HCI_EVT_CMD_COMPLETE
+# opcode: 0x200C error: 0x0C retry: 0
+# bt_hci_cmd_le_set_scan_enable
+# bt_hci_cmd_le_set_scan_param_active
+# bt_hci_cmd_le_set_scan_enable
+# bt_hci_cmd_periodic_inquiry
+O 000000 01 0B 20 07 01 24 00 12 00 00 00
+I 000000 04 0E 04 05 0B 20 00
+# BT_HCI_EVT_CMD_COMPLETE
+O 000000 01 0C 20 02 01 01
+I 000000 04 0E 04 05 0C 20 00
+# BT_HCI_EVT_CMD_COMPLETE
+O 000000 01 03 04 09 0A 00 08 00 33 8B 9E 03 FF
+I 000000 04 0E 04 05 03 04 00
+# BT_HCI_EVT_CMD_COMPLETE
+O 000000 01 0C 20 02 00 01
+I 000000 04 0E 04 05 0C 20 00
+# BT_HCI_EVT_CMD_COMPLETE
+O 000000 01 0B 20 07 01 24 00 12 00 00 00
+I 000000 04 0E 04 05 0B 20 00
+# BT_HCI_EVT_CMD_COMPLETE
+O 000000 01 0C 20 02 01 01
+O 000000 01 03 04 09 0A 00 08 00 33 8B 9E 03 FF
+I 000000 04 0E 04 04 03 04 0C
+# BT_HCI_EVT_CMD_COMPLETE
+# opcode: 0x0403 error: 0x0C retry: 0
+I 000000 04 0E 04 05 0C 20 00
+# BT_HCI_EVT_CMD_COMPLETE
+# mc_restore: restore sucessful!
+I (944) gpio: GPIO[0]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldow                                                                                                                                                                                           n: 0| Intr:0
+# internal_flag_init: External adapter
+I (954) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldow                                                                                                                                                                                           n: 0| Intr:0
+I (954) gpio: GPIO[4]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldow                                                                                                                                                                                           n: 0| Intr:0
+I (954) gpio: GPIO[12]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldo                                                                                                                                                                                           wn: 0| Intr:0
+I (954) gpio: GPIO[15]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldo                                                                                                                                                                                           wn: 0| Intr:0
+I (954) main_task: Returned from app_main()
+I 000000 04 3E 2B 02 01 03 01 AA C6 4A 86 14 58 1F 1E FF 06 00 01 09 20 02 68 8C                                                                                                                                                                                            45 75 69 A7 17 FF 60 8A 5F 1E 4B FF 1A A8 6F 46 71 1C 19 70 07 BF
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 2B 02 01 00 01 95 A9 A4 2C ED 48 1F 02 01 1A 1B FF 4C 00 0C 0E 08                                                                                                                                                                                            20 71 A5 EB 6C E9 43 4F 5E 9F 32 B3 29 10 06 47 1D B9 8D 9A B8 AF
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 0C 02 01 04 01 95 A9 A4 2C ED 48 00 AE
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 28 02 01 02 01 0D B4 38 FA ED 43 1C 03 03 9F FE 17 16 9F FE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 9D
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 19 02 01 00 01 85 4D CE 14 9E 7C 0D 02 01 02 03 03 50 FE 05 16 50 FE 07 AD BA
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 0C 02 01 04 01 85 4D CE 14 9E 7C 00 BA
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 28 02 01 02 01 E9 52 45 65 B0 6B 1C 03 03 9F FE 17 16 9F FE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 BB
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 16 02 01 04 01 E9 52 45 65 B0 6B 0A 09 FF E0 00 56 A8 CA 87 56 E9 BC
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 28 02 01 02 01 7C 67 68 60 6C 53 1C 03 03 9F FE 17 16 9F FE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 C2
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 16 02 01 04 01 7C 67 68 60 6C 53 0A 09 FF E0 00 56 19 CA 90 F4 40 C2
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 14 02 01 03 01 79 80 DC 5D 9E C6 08 07 FF 4C 00 12 02 00 03 AD
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 28 02 01 02 01 DA 9D E0 7F 3C 7A 1C 03 03 9F FE 17 16 9F FE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 B9
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 16 02 01 04 01 DA 9D E0 7F 3C 7A 0A 09 FF E0 00 56 17 CA 55 5C 71 B8
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 2B 02 01 03 01 85 B1 EB 7B E5 37 1F 1E FF 06 00 01 0F 20 02 C9 54 1C 07 79 89 4D FC 76 4C 17 FE 96 13 50 74 10 38 DF C5 22 C8 A8 D3
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 28 02 01 02 01 25 BF 80 B8 2B 4C 1C 03 03 9F FE 17 16 9F FE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 9F
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 16 02 01 04 01 25 BF 80 B8 2B 4C 0A 09 FF E0 00 32 AE CA 32 83 3D A5
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 1D 02 01 00 00 36 12 57 EC B3 F0 11 02 01 1A 02 0A 04 0A FF 4C 00 10 05 01 10 F2 88 78 CB
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 0C 02 01 04 00 36 12 57 EC B3 F0 00 CC
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 1D 02 01 00 00 20 A3 69 CD 69 C8 11 02 01 1A 02 0A 0C 0A FF 4C 00 10 05 09 14 23 39 7C A7
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 28 02 01 02 01 86 C2 24 E2 A9 7F 1C 03 03 9F FE 17 16 9F FE 02 52 76 34 39 79 77 52 79 53 79 63 00 00 01 86 A5 04 CA AC 9C
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 28 02 01 02 01 71 56 44 1A 58 5D 1C 03 03 9F FE 17 16 9F FE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 B8
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 16 02 01 04 01 71 56 44 1A 58 5D 0A 09 FF E0 00 56 CB CA 82 5B 44 B9
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 29 02 01 00 01 B6 B8 15 35 25 40 1D 02 01 1A 09 FF C4 00 2E 33 15 13 17 80 02 0A D4 03 03 B9 FE 08 1B 00 99 3B D4 86 2F 40 A1
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 1A 02 01 04 01 B6 B8 15 35 25 40 0E 0A 09 50 C3 A9 70 69 6E 20 54 56 02 0A D4 9E
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 1B 02 01 03 01 F1 54 F1 EA 22 3B 0F 02 01 1A 0B FF 4C 00 09 06 03 67 C0 A8 56 D5 C7
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 01 01 00
+# BT_HCI_EVT_INQUIRY_COMPLETE
+I 000000 04 3E 0C 02 01 04 00 20 A3 69 CD 69 C8 00 A8
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 1D 02 01 00 01 B0 94 DB 05 E5 63 11 02 01 1A 02 0A 0C 0A FF 4C 00 10 05 4D 1C EB 52 09 9F
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 1B 02 01 03 01 31 4A 8A AC FF 14 0F 02 01 1A 0B FF 4C 00 09 06 03 04 C0 A8 01 08 A0
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 27 02 01 00 00 B7 58 96 5F C6 EE 1B 02 01 05 03 19 C4 03 10 09 53 74 61 64 69 61 54 44 51 51 2D 35 38 62 37 02 0A F8 DB
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# bt_hci_cmd_le_set_scan_enable
+# bt_hci_cmd_le_set_adv_disable
+# bt_hci_cmd_le_create_conn
+# LE ADV dev: 0 type: 0 bdaddr: 00 - EE:C6:5F:96:58:B7
+I 000000 04 3E 14 02 01 04 00 B7 58 96 5F C6 EE 08 03 19 C4 03 03 02 12 18 DD
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+O 000000 01 0C 20 02 00 01
+I 000000 04 0E 04 05 0C 20 00
+# BT_HCI_EVT_CMD_COMPLETE
+O 000000 01 0A 20 01 00
+I 000000 04 0E 04 05 0A 20 00
+# BT_HCI_EVT_CMD_COMPLETE
+O 000000 01 0D 20 19 12 00 12 00 00 00 B7 58 96 5F C6 EE 00 06 00 0C 00 00 00 2C 01 00 00 00 00
+I 000000 04 0F 04 00 05 0D 20
+# BT_HCI_EVT_CMD_STATUS
+I 000000 04 3E 13 01 00 00 00 00 00 B7 58 96 5F C6 EE 0C 00 00 00 2C 01 00
+# BT_HCI_EVT_LE_CONN_COMPLETE
+# dev: 0 acl_handle: 0x0000
+# bt_smp_pairing_req
+# bt_hci_cmd_le_set_scan_enable
+# bt_hci_cmd_le_set_scan_param_active
+# bt_hci_cmd_le_set_scan_enable
+O 000000 02 00 00 0B 00 07 00 06 00 01 03 00 01 10 02 01
+O 000000 01 0C 20 02 00 01
+I 000000 04 0E 04 05 0C 20 0C
+# BT_HCI_EVT_CMD_COMPLETE
+# opcode: 0x200C error: 0x0C retry: 0
+O 000000 01 0B 20 07 01 24 00 12 00 00 00
+I 000000 04 0E 04 05 0B 20 00
+# BT_HCI_EVT_CMD_COMPLETE
+O 000000 01 0C 20 02 01 01
+I 000000 04 0E 04 05 0C 20 00
+# BT_HCI_EVT_CMD_COMPLETE
+I 000000 04 13 05 01 00 00 01 00
+I 000000 02 00 20 10 00 0C 00 05 00 12 02 08 00 06 00 08 00 00 00 90 01
+# BT_L2CAP_CONN_PARAM_REQ
+# bt_hci_cmd_le_conn_update
+I 000000 02 00 20 0B 00 07 00 06 00 02 03 00 09 10 02 01
+# BT_SMP_CMD_PAIRING_RSP
+# bt_hci_cmd_le_rand
+# bt_hci_cmd_le_rand
+O 000000 02 00 20 0A 00 06 00 05 00 13 02 02 00 00 00
+O 000000 01 13 20 0E 00 00 06 00 08 00 00 00 90 01 00 00 00 00
+I 000000 04 0F 04 00 05 13 20
+# BT_HCI_EVT_CMD_STATUS
+O 000000 01 18 20 00
+I 000000 04 0E 0C 05 18 20 00 5A 6C B8 23 46 ED E4 F7
+# BT_HCI_EVT_CMD_COMPLETE
+O 000000 01 18 20 00
+I 000000 04 0E 0C 05 18 20 00 9A 77 D8 C8 B8 0D 4E 2A
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_encrypt
+O 000000 01 17 20 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 5A 6C B9 20 46 EC F4 F5 9B 75 DB C8 B1 1D 4C 2B
+I 000000 04 0E 14 05 17 20 00 B8 50 D6 45 BE C0 0F 11 96 B9 A3 C4 9A 0B 48 75
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_encrypt
+O 000000 01 17 20 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0F 08 40 1A 78 2E 21 D2 76 04 3D B8 9A 0B 48 75
+I 000000 04 0E 14 05 17 20 00 92 3D 2E 7B 24 8E D6 B7 C9 64 48 9C F9 CF 43 0B
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_smp_pairing_confirm
+O 000000 02 00 00 15 00 11 00 06 00 03 92 3D 2E 7B 24 8E D6 B7 C9 64 48 9C F9 CF 43 0B
+I 000000 04 3E 2B 02 01 03 01 AA C6 4A 86 14 58 1F 1E FF 06 00 01 09 20 02 68 8C 45 75 69 A7 17 FF 60 8A 5F 1E 4B FF 1A A8 6F 46 71 1C 19 70 07 C3
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 13 05 01 00 00 01 00
+I 000000 04 13 05 01 00 00 01 00
+I 000000 04 3E 0A 03 3B 00 00 0C 00 00 00 2C 01
+I 000000 02 00 20 15 00 11 00 06 00 03 1A CB AD 26 58 23 B3 F7 E4 0E 07 26 36 B2 B2 CE
+# BT_SMP_CMD_PAIRING_CONFIRM
+# bt_smp_pairing_random
+O 000000 02 00 00 15 00 11 00 06 00 04 5A 6C B8 23 46 ED E4 F7 9A 77 D8 C8 B8 0D 4E 2A
+I 000000 04 13 05 01 00 00 01 00
+I 000000 02 00 20 15 00 11 00 06 00 04 63 3A 4E 2D DC 38 A0 5E 88 57 69 BF AB 41 53 95
+# BT_SMP_CMD_PAIRING_RANDOM
+# bt_hci_cmd_le_encrypt
+O 000000 01 17 20 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 5A 6C B8 23 46 ED E4 F7 63 3A 4E 2D DC 38 A0 5E
+I 000000 04 0E 14 05 17 20 00 DF FA 35 F7 DB 18 DB C2 12 FF 4C 81 71 A5 37 24
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_start_encryption
+I 000000 04 3E 27 02 01 00 00 B7 58 96 5F C6 EE 1B 02 01 05 03 19 C4 03 10 09 53 74 61 64 69 61 54 44 51 51 2D 35 38 62 37 02 0A F8 DC
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+O 000000 01 19 20 1C 00 00 00 00 00 00 00 00 00 00 00 00 DF FA 35 F7 DB 18 DB C2 12 FF 4C 81 71 A5 37 24
+I 000000 04 0F 04 00 05 19 20
+# BT_HCI_EVT_CMD_STATUS
+I 000000 04 08 04 00 00 00 01
+# BT_HCI_EVT_ENCRYPT_CHANGE
+I 000000 04 3E 28 02 01 02 01 DA 9D E0 7F 3C 7A 1C 03 03 9F FE 17 16 9F FE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 B6
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 16 02 01 04 01 DA 9D E0 7F 3C 7A 0A 09 FF E0 00 56 17 CA 55 5C 71 B5
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 02 00 20 15 00 11 00 06 00 06 52 FF 05 A2 26 0D 6C 47 6F B2 87 9D 98 E4 9E 19
+# BT_SMP_CMD_ENCRYPT_INFO
+I 000000 04 3E 2B 02 01 03 01 85 B1 EB 7B E5 37 1F 1E FF 06 00 01 0F 20 02 C9 54 1C 07 79 89 4D FC 76 4C 17 FE 96 13 50 74 10 38 DF C5 22 C8 A8 D3
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 02 00 20 0F 00 0B 00 06 00 07 84 51 FE C3 F6 4E 08 92 36 18
+# BT_SMP_CMD_MASTER_IDENT
+# bt_smp_ident_info
+# bt_smp_ident_addr_info
+# bt_att_cmd_mtu_req
+# bt_hci_cmd_le_add_dev_to_wl
+O 000000 02 00 00 15 00 11 00 06 00 08 4E 5C 6C 40 0E F2 ED E4 77 3C 9B A6 D0 90 4F 3B
+O 000000 02 00 00 0C 00 08 00 06 00 09 00 2E C3 E0 BD 9E 7C
+O 000000 02 00 20 07 00 03 00 04 00 02 F7 00
+O 000000 01 11 20 07 00 B7 58 96 5F C6 EE
+I 000000 04 0E 04 05 11 20 12
+# BT_HCI_EVT_CMD_COMPLETE
+# opcode: 0x2011 error: 0x12 retry: 0
+I 000000 04 13 05 01 00 00 01 00
+I 000000 04 13 05 01 00 00 02 00
+I 000000 04 3E 14 02 01 04 00 B7 58 96 5F C6 EE 08 03 19 C4 03 03 02 12 18 DD
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 02 00 20 07 00 03 00 04 00 03 F7 00
+# BT_ATT_OP_MTU_RSP
+# bt_att_cmd_read_type_req_uuid16
+O 000000 02 00 20 0B 00 07 00 04 00 08 01 00 FF FF 00 2A
+I 000000 04 13 05 01 00 00 01 00
+I 000000 02 00 20 17 00 13 00 04 00 09 11 16 00 53 74 61 64 69 61 54 44 51 51 2D 35 38 62 37
+# BT_ATT_OP_READ_TYPE_RSP
+# bt_type_update: dev: 0 type: 0 subtype: 0
+# dev: 0 type: 0 StadiaTDQQ-58b7
+# bt_att_cmd_read_group_req_uuid16
+O 000000 02 00 20 0B 00 07 00 04 00 10 01 00 FF FF 00 28
+I 000000 04 3E 28 02 01 02 01 25 BF 80 B8 2B 4C 1C 03 03 9F FE 17 16 9F FE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 9C
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 13 05 01 00 00 01 00
+I 000000 04 3E 28 02 01 02 01 E9 52 45 65 B0 6B 1C 03 03 9F FE 17 16 9F FE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 BD
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 16 02 01 04 01 E9 52 45 65 B0 6B 0A 09 FF E0 00 56 A8 CA 87 56 E9 BD
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 02 00 20 24 00 20 00 04 00 11 06 01 00 05 00 01 18 14 00 1C 00 00 18 28 00 37 00 0A 18 38 00 3B 00 0F 18 3C 00 FF FF 12 18
+# BT_ATT_OP_READ_GROUP_RSP
+# bt_att_cmd_read_group_req_uuid16
+O 000000 02 00 20 0B 00 07 00 04 00 10 FF FF FF FF 00 28
+I 000000 04 3E 2B 02 01 00 01 95 A9 A4 2C ED 48 1F 02 01 1A 1B FF 4C 00 0C 0E 08 20 71 A5 EB 6C E9 43 4F 5E 9F 32 B3 29 10 06 47 1D B9 8D 9A B8 AC
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 0C 02 01 04 01 95 A9 A4 2C ED 48 00 AB
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 13 05 01 00 00 01 00
+I 000000 04 3E 28 02 01 02 01 71 56 44 1A 58 5D 1C 03 03 9F FE 17 16 9F FE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 BC
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 16 02 01 04 01 71 56 44 1A 58 5D 0A 09 FF E0 00 56 CB CA 82 5B 44 BC
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 02 00 20 09 00 05 00 04 00 01 10 FF FF 0A
+# BT_ATT_OP_ERROR_RSP
+# BT_ATT_OP_READ_GROUP_REQ
+# bt_att_cmd_find_info_req
+O 000000 02 00 20 09 00 05 00 04 00 04 3C 00 FF FF
+I 000000 04 13 05 01 00 00 01 00
+I 000000 04 3E 1E 02 01 00 01 8B 7D A4 53 92 41 12 02 01 1A 02 0A 07 0B FF 4C 00 10 06 36 1D E6 49 08 28 A3
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 0C 02 01 04 01 8B 7D A4 53 92 41 00 A2
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 02 00 20 4A 00 46 00 04 00 05 01 3C 00 00 28 3D 00 03 28 3E 00 4E 2A 3F 00 03 28 40 00 4D 2A 41 00 02 29 42 00 08 29 43 00 03 28 44 00 4D 2A 45 00 02 29 46 00 08 29 47 00 03 28 48 00 4B 2A 49 00 03 28 4A 00 4A 2A 4B 00 03 28 4C 00 4C 2A
+# BT_ATT_OP_FIND_INFO_RSP
+# bt_att_cmd_find_info_req
+O 000000 02 00 20 09 00 05 00 04 00 04 4D 00 FF FF
+I 000000 04 13 05 01 00 00 01 00
+I 000000 02 00 20 09 00 05 00 04 00 01 04 4D 00 0A
+# BT_ATT_OP_ERROR_RSP
+# BT_ATT_OP_FIND_INFO_REQ
+# bt_att_cmd_read_type_req_uuid16
+O 000000 02 00 20 0B 00 07 00 04 00 08 3C 00 FF FF 03 28
+I 000000 04 13 05 01 00 00 01 00
+I 000000 02 00 20 30 00 2C 00 04 00 09 07 3D 00 0A 3E 00 4E 2A 3F 00 12 40 00 4D 2A 43 00 0A 44 00 4D 2A 47 00 02 48 00 4B 2A 49 00 02 4A 00 4A 2A 4B 00 08 4C 00 4C 2A
+# BT_ATT_OP_READ_TYPE_RSP
+# bt_att_cmd_read_req
+O 000000 02 00 20 07 00 03 00 04 00 0A 48 00
+I 000000 04 3E 19 02 01 00 01 85 4D CE 14 9E 7C 0D 02 01 02 03 03 50 FE 05 16 50 FE 07 AD BF
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 0C 02 01 04 01 85 4D CE 14 9E 7C 00 BE
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 13 05 01 00 00 01 00
+I 000000 02 00 20 BB 00 B7 00 04 00 0B 05 01 09 05 A1 01 85 03 05 01 75 04 95 01 25 07 46 3B 01 65 14 09 39 81 42 45 00 65 00 75 01 95 04 81 01 05 09 15 00 25 01 75 01 95 0F 09 12 09 11 09 14 09 13 09 0D 09 0C 09 0B 09 0F 09 0E 09 08 09 07 09 05 09 04 09 02 09 01 81 02 75 01 95 01 81 01 05 01 15 01 26 FF 00 09 01 A1 00 09 30 09 31 75 08 95 02 81 02 C0 09 01 A1 00 09 32 09 35 75 08 95 02 81 02 C0 05 02 75 08 95 02 15 00 26 FF 00 09 C5 09 C4 81 02 05 0C 15 00 25 01 09 E9 09 EA 75 01 95 02 81 02 09 CD 95 01 81 02 95 05 81 01 85 05 06 0F 00 09 97 75 10 95 02 27 FF FF 00 00 91 02 C0
+# BT_ATT_OP_READ_RSP
+# 3 0139 0 4, 0912 8 15 0130 24 8, 0131 32 8, 0132 40 8, 0135 48 8, 02C5 56 8, 02C4 64 8, 0CE9 72 2 0CCD 74 1 rtype: 2 dtype: 0 sub: 0
+# 5
+# bt_att_cmd_read_req
+O 000000 02 00 20 07 00 03 00 04 00 0A 42 00
+I 000000 04 13 05 01 00 00 01 00
+I 000000 02 00 20 07 00 03 00 04 00 0B 03 01
+# BT_ATT_OP_READ_RSP
+# bt_att_cmd_read_req
+O 000000 02 00 20 07 00 03 00 04 00 0A 46 00
+I 000000 04 3E 1D 02 01 00 00 20 A3 69 CD 69 C8 11 02 01 1A 02 0A 0C 0A FF 4C 00 10 05 09 14 23 39 7C AA
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 0C 02 01 04 00 20 A3 69 CD 69 C8 00 AA
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 13 05 01 00 00 01 00
+I 000000 04 3E 28 02 01 02 01 7C 67 68 60 6C 53 1C 03 03 9F FE 17 16 9F FE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 B9
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 16 02 01 04 01 7C 67 68 60 6C 53 0A 09 FF E0 00 56 19 CA 90 F4 40 B8
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 1B 02 01 03 01 F1 54 F1 EA 22 3B 0F 02 01 1A 0B FF 4C 00 09 06 03 67 C0 A8 56 D5 D4
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 02 00 20 07 00 03 00 04 00 0B 05 02
+# BT_ATT_OP_READ_RSP
+# bt_att_cmd_write_req
+O 000000 02 00 20 09 00 05 00 04 00 12 41 00 01 00
+I 000000 04 13 05 01 00 00 01 00
+I 000000 04 3E 1D 02 01 00 00 36 12 57 EC B3 F0 11 02 01 1A 02 0A 04 0A FF 4C 00 10 05 01 10 F2 88 78 D4
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 0C 02 01 04 00 36 12 57 EC B3 F0 00 D4
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 02 00 20 05 00 01 00 04 00 13
+# BT_ATT_OP_WRITE_RSP
+I 000000 04 3E 28 02 01 02 01 3B DB 63 35 B3 7E 1C 03 03 9F FE 17 16 9F FE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 A1
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 29 02 01 00 01 B6 B8 15 35 25 40 1D 02 01 1A 09 FF C4 00 2E 33 15 13 17 80 02 0A D4 03 03 B9 FE 08 1B 00 99 3B D4 86 2F 40 A4
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 1A 02 01 04 01 B6 B8 15 35 25 40 0E 0A 09 50 C3 A9 70 69 6E 20 54 56 02 0A D4 A5
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 1D 02 01 00 01 BD DE D2 0D 9A 76 11 02 01 1A 02 0A 08 0A FF 4C 00 10 05 2A 18 29 4B 16 9D
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 04 3E 16 02 01 04 01 3B DB 63 35 B3 7E 0A 09 FF E0 00 32 0E CA 6D 88 03 A0
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 02 00 20 11 00 0D 00 04 00 1B 40 00 08 10 00 80 80 80 80 00 00 00
+I 000000 02 00 20 11 00 0D 00 04 00 1B 40 00 08 00 00 80 80 80 80 00 00 00
+I 000000 04 3E 1B 02 01 03 01 31 4A 8A AC FF 14 0F 02 01 1A 0B FF 4C 00 09 06 03 04 C0 A8 01 08 A9
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+I 000000 02 00 20 11 00 0D 00 04 00 1B 40 00 08 10 00 80 80 80 80 00 00 00
+I 000000 02 00 20 11 00 0D 00 04 00 1B 40 00 08 00 00 80 80 80 80 00 00 00
+# n64_ctrl_special_action: Set ctrl pak
+I 000000 02 00 20 11 00 0D 00 04 00 1B 40 00 08 10 00 80 80 80 80 00 00 00
+I 000000 02 00 20 11 00 0D 00 04 00 1B 40 00 08 00 00 80 80 80 80 00 00 00
+# n64_ctrl_special_action: Set rumble pak
+I 000000 02 00 20 11 00 0D 00 04 00 1B 40 00 08 10 00 80 80 80 80 00 00 00
+I 000000 02 00 20 11 00 0D 00 04 00 1B 40 00 08 00 00 80 80 80 80 00 00 00
+# n64_ctrl_special_action: Set ctrl pak
+I 000000 02 00 20 11 00 0D 00 04 00 1B 40 00 08 10 00 80 80 80 80 00 00 00
+I 000000 02 00 20 11 00 0D 00 04 00 1B 40 00 08 00 00 80 80 80 80 00 00 00
+# n64_ctrl_special_action: Set rumble pak
+I 000000 02 00 20 11 00 0D 00 04 00 1B 40 00 08 10 00 80 80 80 80 00 00 00
+I 000000 02 00 20 11 00 0D 00 04 00 1B 40 00 08 00 00 80 80 80 80 00 00 00
+# n64_ctrl_special_action: Set ctrl pak
+I 000000 04 01 01 00
+# BT_HCI_EVT_INQUIRY_COMPLETE
+# bt_hci_cmd_exit_periodic_inquiry
+# bt_hci_cmd_le_set_scan_enable
+# bt_hci_cmd_le_set_scan_param_passive
+# bt_hci_cmd_le_set_scan_enable
+O 000000 01 04 04 00
+I 000000 04 0E 04 05 04 04 00
+# BT_HCI_EVT_CMD_COMPLETE
+O 000000 01 0C 20 02 00 01
+I 000000 04 0E 04 05 0C 20 00
+# BT_HCI_EVT_CMD_COMPLETE
+O 000000 01 0B 20 07 00 00 04 12 00 00 01
+I 000000 04 0E 04 05 0B 20 00
+# BT_HCI_EVT_CMD_COMPLETE
+O 000000 01 0C 20 02 01 01
+I 000000 04 0E 04 05 0C 20 00
+# BT_HCI_EVT_CMD_COMPLETE
