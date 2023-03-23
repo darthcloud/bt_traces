@@ -1,0 +1,304 @@
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒                                                                                                                                                                                           ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒                                                                                                                                                                                           ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒                                                                                                                                                                                           ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒                                                                                                                                                                                           ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒                                                                                                                                                                                           ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒I (258) cpu_start: Pro cpu up.
+I (258) cpu_start: Single core mode
+I (266) cpu_start: Pro cpu start user code
+I (266) cpu_start: cpu freq: 240000000 Hz
+I (266) cpu_start: Application information:
+I (267) cpu_start: Project name:     BlueRetro
+I (267) cpu_start: App version:      v1.8.3-78-g69714c9-dirty
+I (268) cpu_start: Compile time:     Mar 23 2023 03:52:23
+I (269) cpu_start: ELF file SHA256:  2e2e014261823355...
+I (270) cpu_start: ESP-IDF:          v5.1-dev-2926-g3df87a91a3-dirty
+I (270) cpu_start: Min chip rev:     v1.0
+I (271) cpu_start: Max chip rev:     v3.99
+I (272) cpu_start: Chip rev:         v3.0
+I (272) cpu_start: App cpu up.
+I (273) heap_init: Initializing. RAM available for dynamic allocation:
+I (274) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM
+I (274) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM
+I (275) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM
+I (276) heap_init: At 3FFCD340 len 00012CC0 (75 KiB): DRAM
+I (277) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+I (277) heap_init: At 3FFE4350 len 00003A48 (14 KiB): D/IRAM
+I (278) heap_init: At 3FFE7E28 len 000181D8 (96 KiB): D/IRAM
+I (279) heap_init: At 40078000 len 00008000 (32 KiB): IRAM
+I (280) heap_init: At 4009EFA8 len 00001058 (4 KiB): IRAM
+I (281) heap_init: At 3FF80068 len 00001F98 (7 KiB): RTCRAM
+I (283) spi_flash: detected chip: generic
+I (283) spi_flash: flash io: dio
+I (283) esp_core_dump_uart: Init core dump to UART
+I (283) esp_core_dump_uart: Init core dump to UART
+I (284) app_start: Starting scheduler on CPU0
+I (284) main_task: Started on CPU0
+I (284) main_task: Calling app_main()
+# App main at 40083334
+# App init at 40083344
+# APP_CPU RESET: 0
+# APP_CPU CLKGATE: 0
+# APP_CPU STALL: 0
+# APP_CACHE_CTRL: 00000030
+# APP CPU STACK PTR: 3FFBBC88
+# Hardcoded system : 15: N64
+# bt_host_load_bdaddr_from_file: No BDADDR on SD. Using ESP32's MAC
+I (334) BTDM_INIT: BT controller compile version [411ec6c]
+st=0
+st=0
+st=127
+st=127
+st=127
+st=127
+st=127
+st=127
+st=127
+st=127
+st=127
+st=127
+st=0
+st=0
+I (344) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07
+st=0
+st=0
+Coex register Wi-Fi channel change btdm cb faild
+# gid_update_sys: N64
+# bt_hci_cmd_reset
+st=0
+st=0
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_local_features
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_local_version_info
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_bd_addr
+# BT_HCI_EVT_CMD_COMPLETE
+# local_name: BlueRetro_N64_C32E
+# local_bdaddr: 7C:9E:BD:E0:C3:2E
+# bt_hci_cmd_read_buffer_size
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_class_of_device
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_local_name
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_voice_setting
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_num_supported_iac
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_current_iac_lap
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_set_event_filter
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_conn_accept_timeout
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_supported_commands
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_ssp_mode
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_inquiry_mode
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_inquiry_rsp_tx_pwr_lvl
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_local_ext_features
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_stored_link_key
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_page_scan_activity
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_read_page_scan_type
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_le_host_supp
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_read_wl_size
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_clear_wl
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_add_dev_to_wl
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_add_dev_to_wl
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_delete_stored_link_key
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_class_of_device
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_local_name
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_set_event_filter
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_set_event_filter
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_auth_enable
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_set_event_mask
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_page_scan_activity
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_inquiry_scan_activity
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_page_scan_type
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_page_scan_timeout
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_hold_mode_act
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_scan_enable
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_write_default_link_policy
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_read_buffer_size
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_att_set_le_max_mtu 247
+# bt_hci_cmd_le_set_adv_param
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_set_adv_data
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_set_scan_rsp_data
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_set_adv_enable
+st=1
+# BT_HCI_EVT_CMD_COMPLETE
+# bt_hci_cmd_le_set_scan_enable
+# bt_hci_cmd_le_set_scan_param_active
+# bt_hci_cmd_le_set_scan_enable
+# bt_hci_cmd_periodic_inquiry
+# BT_HCI_EVT_CMD_COMPLETE
+# opcode: 0x200C error: 0x0C retry: 0
+# bt_hci_cmd_le_set_scan_enable
+# bt_hci_cmd_le_set_scan_param_active
+# bt_hci_cmd_le_set_scan_enable
+# bt_hci_cmd_periodic_inquiry
+# BT_HCI_EVT_CMD_COMPLETE
+st=5
+# BT_HCI_EVT_CMD_COMPLETE
+# BT_HCI_EVT_CMD_COMPLETE
+st=13
+# BT_HCI_EVT_CMD_COMPLETE
+st=1
+# BT_HCI_EVT_CMD_COMPLETE
+st=5
+# BT_HCI_EVT_CMD_COMPLETE
+# BT_HCI_EVT_CMD_COMPLETE
+# opcode: 0x0403 error: 0x0C retry: 0
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# mc_restore: restore sucessful!
+I (914) gpio: GPIO[0]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldow                                                                                                                                                                                           n: 0| Intr:0
+# internal_flag_init: External adapter
+I (914) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldow                                                                                                                                                                                           n: 0| Intr:0
+I (914) gpio: GPIO[4]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldow                                                                                                                                                                                           n: 0| Intr:0
+I (914) gpio: GPIO[12]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldo                                                                                                                                                                                           wn: 0| Intr:0
+I (914) gpio: GPIO[15]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldo                                                                                                                                                                                           wn: 0| Intr:0
+I (914) main_task: Returned from app_main()
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_INQUIRY_COMPLETE
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+# BT_HCI_EVT_LE_ADVERTISING_REPORT
+st=5
+# BT_HCI_EVT_CONN_REQUEST
+# bt_hci_cmd_accept_conn_req
+# Page dev: 0 type: 0 bdaddr: 20:0B:CF:17:64:36
+st=12
+st=5
+# BT_HCI_EVT_CMD_STATUS
+st=56
+st=58
+# BT_HCI_EVT_ROLE_CHANGE
+st=5
+# BT_HCI_EVT_CONN_COMPLETE
+# dev: 0 acl_handle: 0x0080
+# bt_hci_cmd_le_set_adv_disable
+# bt_hci_cmd_remote_name_request
+st=1
+st=60
+st=6
+# BT_HCI_EVT_CMD_COMPLETE
+st=4
+# BT_HCI_EVT_CMD_STATUS
+st=1
+st=21
+# BT_HCI_EVT_REMOTE_NAME_REQ_COMPLETE:
+# bt_type_update: dev: 0 type: 5 subtype: 15
+# bt_hci_cmd_exit_periodic_inquiry
+# bt_hci_cmd_le_set_scan_enable
+# bt_hci_cmd_le_set_scan_param_passive
+# bt_hci_cmd_le_set_scan_enable
+# bt_hci_cmd_read_remote_features
+# dev: 0 type: 5:15 N64 Controller
+st=1
+# BT_HCI_EVT_CMD_COMPLETE
+st=12
+# BT_HCI_EVT_CMD_COMPLETE
+st=0
+# BT_HCI_EVT_CMD_COMPLETE
+st=4
+# BT_HCI_EVT_CMD_COMPLETE
+# BT_HCI_EVT_CMD_STATUS
+# BT_HCI_EVT_REMOTE_FEATURES
+# bt_hci_cmd_read_remote_ext_features
+# bt_l2cap_cmd_ext_feat_mask_req
+# BT_HCI_EVT_CMD_STATUS
+st=24
+# BT_HCI_EVT_REMOTE_EXT_FEATURES
+st=1
+# BT_L2CAP_INFO_RSP
+# BT_HCI_EVT_LINK_KEY_REQ
+# bt_hci_cmd_link_key_reply
+st=36
+# BT_HCI_EVT_CMD_COMPLETE
+st=97
+st=1
+st=42
+st=44
+# BT_HCI_EVT_ENCRYPT_CHANGE
+st=1
+# BT_L2CAP_CONN_REQ
+# BT_L2CAP_CONF_REQ
+# BT_L2CAP_CONF_RSP
+st=1
+st=43
+st=102
+st=44
+st=1
+# BT_L2CAP_CONN_REQ
+# BT_L2CAP_CONF_REQ
+# BT_L2CAP_CONF_RSP
+# bt_hci_cmd_write_link_supervision_to
+# bt_hci_cmd_sniff_mode
+# bt_hid_sw_init
+# BT_HCI_EVT_CMD_COMPLETE
+# BT_HCI_EVT_CMD_STATUS
+st=50
+st=1
+st=1
+# bt_type_update: dev: 0 type: 5 subtype: 15
+# bt_hid_sw_hdlr: Report type change to 3F
+opc=23
+ASSERT_WARN(1 6), in lc_task.c at line 4658
+# sw_pad_init: no calib, using full range
+# sw_pad_init: no calib, using full range
+# sw_pad_init: no calib, using full range
+# sw_pad_init: no calib, using full range
+# bt_hid_sw_init_callback
