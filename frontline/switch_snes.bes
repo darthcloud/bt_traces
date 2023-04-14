@@ -1,0 +1,20 @@
+[ESMDbInformation]
+{ID,Description,Value}
+[ESMConnect]
+{ID,ConnType,Parent,Statistics,StartFrame,EndFrame}
+1,ACL,-1,1,1175,0
+[ESMACL]
+{ID,DeviceA,DeviceB,AddrType,Handle,Active,Errors,Interface}
+1,74:F9:CA:B2:A4:78,5C:0C:E6:06:F1:D2,BR_EDR,1,1,0,1
+[ESMSCO]
+{ID,Type,Air Mode,Handle,Active,Errors}
+[ESML2cap]
+{ID,SrcCID,DestCID,ExtFeat,Mode,TxMtu,RxMtu,LocalPSM,RemotePSM,DataTx,DataRx,TxMps,RxMps,TxWindow,RxWindow,NumRetran,Active,Errors}
+[ESMAudio]
+{ID,Signal ID,Source ID,Sink ID,ChannelType,StreamState,StateTimestamp,CodecType,Average Bitpool,Bitrate (Kbps),Optimal Bitrate (Kbps),NumFrames,StreamBytes,Errors}
+[ESMDevice]
+{ID,Address}
+1,5C:0C:E6:06:F1:D2
+2,74:F9:CA:B2:A4:78
+[ESMEvent]
+{ID,ErrorID,Frames,Timestamp,SolutionID,ConnID,Detail}

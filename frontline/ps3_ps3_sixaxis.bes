@@ -1,0 +1,172 @@
+[ESMDbInformation]
+{ID,Description,Value}
+[ESMConnect]
+{ID,ConnType,Parent,Statistics,StartFrame,EndFrame}
+1,ACL,-1,1,2198,0
+2,L2CAP,1,1,2210,0
+3,L2CAP,1,2,2228,0
+[ESMACL]
+{ID,DeviceA,DeviceB,AddrType,Handle,Active,Errors,Interface}
+1,78:18:81:38:F3:48,00:19:C1:86:14:01,BR_EDR,1,1,35,1
+[ESMSCO]
+{ID,Type,Air Mode,Handle,Active,Errors}
+[ESML2cap]
+{ID,SrcCID,DestCID,ExtFeat,Mode,TxMtu,RxMtu,LocalPSM,RemotePSM,DataTx,DataRx,TxMps,RxMps,TxWindow,RxWindow,NumRetran,Active,Errors}
+1,ffff,4e,"","",0,0,17,0,0,0,0,0,0,0,0,1,11
+2,fffe,4f,"","",0,0,19,0,0,0,0,0,0,0,0,1,102
+[ESMAudio]
+{ID,Signal ID,Source ID,Sink ID,ChannelType,StreamState,StateTimestamp,CodecType,Average Bitpool,Bitrate (Kbps),Optimal Bitrate (Kbps),NumFrames,StreamBytes,Errors}
+[ESMDevice]
+{ID,Address}
+1,78:18:81:38:F3:48
+2,00:19:C1:86:14:01
+[ESMEvent]
+{ID,ErrorID,Frames,Timestamp,SolutionID,ConnID,Detail}
+1,1011,2217,133258988174875150,10007,2,WARNING: Found an L2CAP Connection Request without an associated L2CAP Connection Response. Attempting connection configuration with CID: 0x004e.
+2,1011,2231,133258988179325200,10007,3,WARNING: Found an L2CAP Connection Request without an associated L2CAP Connection Response. Attempting connection configuration with CID: 0x004f.
+3,2019,2235,133258988180675210,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004e
+4,2019,2239,133258988184281510,10011,2,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0044
+5,2019,2241,133258988184500250,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004e
+6,2019,2243,133258988185519020,10011,2,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0044
+7,2019,2244,133258988185625270,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004e
+8,2019,2245,133258988186531530,10011,2,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0044
+9,2019,2246,133258988186637780,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004e
+10,2019,2247,133258988187431540,10011,2,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0044
+11,2019,2250,133258988187875290,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004e
+12,2019,2251,133258988188781560,10011,2,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0044
+13,2019,2252,133258988188887800,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004e
+14,2019,2253,133258988189681570,10011,2,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0044
+15,2019,2255,133258988189900310,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004e
+16,2019,2256,133258988190694080,10011,2,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0044
+17,2019,2257,133258988190800320,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004e
+18,2019,2258,133258988191706590,10011,2,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0044
+19,2019,2259,133258988191812840,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004e
+20,2019,2260,133258988192831600,10011,2,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0044
+21,2019,2261,133258988192937850,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004e
+22,2019,2262,133258988193956620,10011,2,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0044
+23,2019,2263,133258988194062860,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+24,2019,2264,133258988194069120,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+25,2019,2265,133258988194175360,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+26,2019,2266,133258988194181620,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+27,2019,2267,133258988194294120,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+28,2019,2268,133258988194406620,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+29,2019,2269,133258988194519120,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+30,2019,2270,133258988194631620,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+31,2019,2271,133258988194744130,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+32,2019,2272,133258988194856630,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+33,2019,2273,133258988194969130,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+34,2019,2274,133258988195081630,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+35,2019,2275,133258988195194130,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+36,2019,2276,133258988195306630,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+37,2019,2277,133258988195419130,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+38,2019,2278,133258988195531630,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+39,2019,2279,133258988195644140,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+40,2019,2280,133258988195756640,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+41,2019,2281,133258988195869140,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+42,2019,2282,133258988195981640,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+43,2019,2283,133258988196094140,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+44,2019,2284,133258988196206640,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+45,2019,2285,133258988196319140,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+46,2019,2286,133258988196431640,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+47,2019,2287,133258988196544150,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+48,2019,2288,133258988196656650,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+49,2019,2289,133258988196769150,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+50,2019,2290,133258988196881650,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+51,2019,2291,133258988196994150,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+52,2019,2292,133258988197106650,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+53,2019,2293,133258988197219150,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+54,2019,2294,133258988197331650,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+55,2019,2295,133258988197444160,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+56,2019,2296,133258988197556660,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+57,2019,2297,133258988197669160,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+58,2019,2298,133258988197781660,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+59,2019,2299,133258988197894160,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+60,2019,2300,133258988198006660,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+61,2019,2301,133258988198119160,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+62,2019,2302,133258988198231660,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+63,2019,2303,133258988198344170,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+64,2019,2304,133258988198456670,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+65,2019,2305,133258988198569170,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+66,2019,2306,133258988198681670,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+67,2019,2307,133258988198794170,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+68,2019,2308,133258988198906670,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+69,2019,2309,133258988199019180,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+70,2019,2310,133258988199131680,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+71,2019,2311,133258988199244180,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+72,2019,2312,133258988199356680,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+73,2019,2313,133258988199469180,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+74,2019,2314,133258988199581680,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+75,2019,2315,133258988199694180,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+76,2019,2316,133258988199806680,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+77,2019,2317,133258988199919190,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+78,2019,2318,133258988200031690,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+79,2019,2319,133258988200144190,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+80,2019,2320,133258988200256690,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+81,2019,2321,133258988200369190,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+82,2019,2322,133258988200481690,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+83,2019,2323,133258988200594190,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+84,2019,2324,133258988200706690,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+85,2019,2325,133258988200819190,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+86,2019,2326,133258988200931700,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+87,2019,2327,133258988201044200,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+88,2019,2328,133258988201156700,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+89,2019,2329,133258988201269200,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+90,2019,2330,133258988201381700,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+91,2019,2331,133258988201606700,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+92,2019,2332,133258988201719210,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+93,2019,2333,133258988201831710,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+94,2019,2334,133258988201944210,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+95,2019,2335,133258988202056710,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+96,2019,2336,133258988202169210,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+97,2019,2337,133258988202281710,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+98,2019,2338,133258988202394210,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+99,2019,2339,133258988202506710,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+100,2019,2340,133258988202619220,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+101,2019,2341,133258988202731720,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+102,2019,2342,133258988202844220,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+103,2019,2343,133258988202956720,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+104,2019,2344,133258988203069220,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+105,2019,2345,133258988203181720,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+106,2019,2346,133258988203294220,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+107,2019,2348,133258988203406720,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+108,2019,2349,133258988203519230,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+109,2019,2350,133258988203631730,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+110,2019,2351,133258988203744230,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+111,2019,2352,133258988203856730,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+112,2019,2353,133258988203969230,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+113,2019,2354,133258988204081730,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+114,2019,2355,133258988204194230,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+115,2019,2356,133258988204306730,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+116,2019,2357,133258988204419240,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+117,2019,2358,133258988204531740,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+118,2019,2359,133258988204644240,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+119,2019,2360,133258988204756740,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+120,2019,2361,133258988204869240,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+121,2019,2362,133258988204981740,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+122,2019,2363,133258988205094240,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+123,2019,2364,133258988205206750,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+124,2019,2365,133258988205319250,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+125,3,2366,133258988205431750,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0045
+467,2019,2711,133258988243988410,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+469,2019,2714,133258988244200920,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+471,2019,2716,133258988244313420,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+473,2019,2718,133258988244425920,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+475,2019,2720,133258988244538420,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+477,2019,2724,133258988244663420,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+478,2019,2725,133258988244763420,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+480,2019,2727,133258988244875920,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+482,2019,2729,133258988244988420,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+484,2019,2731,133258988245100930,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+486,2019,2733,133258988245213430,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+488,2019,2735,133258988245325930,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+490,2019,2737,133258988245438430,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+492,2019,2739,133258988245550930,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+494,2019,2741,133258988245663430,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+496,2019,2743,133258988245775930,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+498,2019,2745,133258988245888430,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+504,2019,2755,133258988246450940,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+506,2019,2757,133258988246575940,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+508,2019,2759,133258988246675940,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+510,2019,2761,133258988246788440,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+512,2019,2763,133258988246900950,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f
+514,2019,2765,133258988247013450,10011,1,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004f

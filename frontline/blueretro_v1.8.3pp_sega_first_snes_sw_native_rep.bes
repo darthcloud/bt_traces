@@ -1,0 +1,47 @@
+[ESMDbInformation]
+{ID,Description,Value}
+[ESMConnect]
+{ID,ConnType,Parent,Statistics,StartFrame,EndFrame}
+1,ACL,-1,1,58,116
+2,L2CAP,1,1,76,116
+3,L2CAP,1,2,97,116
+4,ACL,-1,2,172,0
+5,L2CAP,4,3,191,0
+6,L2CAP,4,4,212,0
+[ESMACL]
+{ID,DeviceA,DeviceB,AddrType,Handle,Active,Errors,Interface}
+1,FF:FF:FF:FF:FF:FF,FF:FF:FF:FF:FF:FF,BR_EDR,1,0,6,1
+2,FF:FF:FF:FF:FF:FF,FF:FF:FF:FF:FF:FF,BR_EDR,1,1,8,1
+[ESMSCO]
+{ID,Type,Air Mode,Handle,Active,Errors}
+[ESML2cap]
+{ID,SrcCID,DestCID,ExtFeat,Mode,TxMtu,RxMtu,LocalPSM,RemotePSM,DataTx,DataRx,TxMps,RxMps,TxWindow,RxWindow,NumRetran,Active,Errors}
+1,ffff,47,"","",0,0,17,0,0,0,0,0,0,0,0,0,0
+2,fffe,48,"","",0,0,19,0,0,0,0,0,0,0,0,0,1
+3,ffff,49,"","",0,0,17,0,0,0,0,0,0,0,0,1,0
+4,fffe,4a,"","",0,0,19,0,0,0,0,0,0,0,0,1,2
+[ESMAudio]
+{ID,Signal ID,Source ID,Sink ID,ChannelType,StreamState,StateTimestamp,CodecType,Average Bitpool,Bitrate (Kbps),Optimal Bitrate (Kbps),NumFrames,StreamBytes,Errors}
+[ESMDevice]
+{ID,Address}
+1,FF:FF:FF:FF:FF:FF
+[ESMEvent]
+{ID,ErrorID,Frames,Timestamp,SolutionID,ConnID,Detail}
+1,10,26,133251191186765706,,-1,""
+2,2017,78,133251191188028226,10017 10018 10019 10020 10021 10022 10023 10024 10025 10026,1,ERROR: L2CAP_ConfigReq for unknown channel CID: 0x0047.
+3,2016,80,133251191188046996,10007,1,ERROR: Signaling Command Identifier 12 in response not recognized.
+4,2016,81,133251191188053226,10007,1,ERROR: Signaling Command Identifier 3 in response not recognized.
+5,2017,99,133251191188878236,10017 10018 10019 10020 10021 10022 10023 10024 10025 10026,1,ERROR: L2CAP_ConfigReq for unknown channel CID: 0x0048.
+6,2016,101,133251191188897006,10007,1,ERROR: Signaling Command Identifier 13 in response not recognized.
+7,2016,102,133251191188903236,10007,1,ERROR: Signaling Command Identifier 5 in response not recognized.
+8,2019,104,133251191188947006,10011,3,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0091
+9,2017,193,133251191214128586,10017 10018 10019 10020 10021 10022 10023 10024 10025 10026,4,ERROR: L2CAP_ConfigReq for unknown channel CID: 0x0049.
+10,2016,195,133251191214147336,10007,4,ERROR: Signaling Command Identifier 15 in response not recognized.
+11,2016,196,133251191214153586,10007,4,ERROR: Signaling Command Identifier 3 in response not recognized.
+12,2017,215,133251191214978596,10017 10018 10019 10020 10021 10022 10023 10024 10025 10026,4,ERROR: L2CAP_ConfigReq for unknown channel CID: 0x004a.
+13,2016,217,133251191214997356,10007,4,ERROR: Signaling Command Identifier 16 in response not recognized.
+14,2016,218,133251191215003596,10007,4,ERROR: Signaling Command Identifier 5 in response not recognized.
+15,2019,220,133251191215047356,10011,6,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0091
+16,2019,232,133251191232353836,10011,4,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x9ebd
+17,2019,239,133251191238210186,10011,6,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x0091
+18,2019,246,133251191247204046,10011,4,ERROR: Frame discarded due to invalid or disconnected L2CAP CID: 0x004a
